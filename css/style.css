@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Shrikhand";
+  src: url("Shrikhand-Regular.ttf") format("truetype");
+}
+.head {
+  text-align: center;
+  margin-left: 1%;
+}
+
+#logo {
+  margin-top: 10px;
+  width: 150px;
+  height: 25px;
+}
+
+.presentation {
+  display: box;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F2F2F2;
+  height: 300px;
+}
+
+.presentation_lieu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e2e2;
+  border-top: 4px solid silver;
+  height: 42px;
+}
+
+.btn {
+  color: white;
+  border: none;
+  height: 45px;
+  width: 200px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  margin-top: 30px;
+  box-shadow: 0px 10px 10px -5px grey;
+}
+
+.presentation_lieu--icone {
+  position: relative;
+  left: -20px;
+}
+
+.presentation_lieu--ville {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation_lieu--texte {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.etape {
+  vertical-align: auto;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+  margin-left: 10px;
+  margin-bottom: 14px;
+  height: 55px;
+}
+
+.numero {
+  position: relative;
+  height: 10px;
+  top: 12px;
+  left: -8px;
+  color: white;
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 11px;
+}
+
+.icone {
+  color: grey;
+  position: relative;
+  left: 20px;
+  top: 17px;
+}
+
+.action {
+  position: relative;
+  left: 40px;
+}
+
+body {
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

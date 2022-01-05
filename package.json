@@ -1,0 +1,19 @@
+{
+  "name": "ocrp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocrabilis/OcrP3.git"
+  },
+  "author": "Ocra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocrabilis/OcrP3/issues"
+  },
+  "homepage": "https://github.com/ocrabilis/OcrP3#readme"
+}
