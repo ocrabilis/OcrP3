@@ -1,8 +1,50 @@
 footer{
     margin-top: 0px;
-    background-color: rgb(34, 34, 37);
-    color:white;
-    &.a{
-        color:white;
+    background-color: rgb(36, 37, 34);
+    & a{
+        color:rgb(255, 255, 255);
+    }
+}
+.pied{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    & img{
+        max-width: 120px;
+	    max-height: 20px;
+        filter: invert(100%);
+        margin-bottom: 15px;
+    }
+    &_lien{
+        text-align: center;
+        vertical-align: auto;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 5px;
+     
+    }
+    &_couverts{
+        position: relative;
+        font-size: small;
+        top: 10px;
+    }
+    &_mains{
+        position: relative;
+        font-size: 70%;
+        top: 10px;
+    }
+    &_proposer{
+        position: relative;
+        left: 18px;
+        margin: 0px;
+    
+    }
+    &_devenir{
+        position: relative;
+        left: 15px;
+        margin: 0px;
     }
 }

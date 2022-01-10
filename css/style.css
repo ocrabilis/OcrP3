@@ -21,13 +21,69 @@ a {
   height: 25px;
 }
 
+#retour_fleche {
+  position: absolute;
+  left: 5px;
+}
+
+figure.image {
+  position: relative;
+  margin: 0px;
+}
+
+.photo {
+  width: 350px;
+  height: auto;
+}
+
 footer {
   margin-top: 0px;
-  background-color: #222225;
+  background-color: #242522;
+}
+footer a {
   color: white;
 }
-footer.a {
-  color: white;
+
+.pied {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+.pied img {
+  max-width: 120px;
+  max-height: 20px;
+  filter: invert(100%);
+  margin-bottom: 15px;
+}
+.pied_lien {
+  text-align: center;
+  vertical-align: auto;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pied_couverts {
+  position: relative;
+  font-size: small;
+  top: 10px;
+}
+.pied_mains {
+  position: relative;
+  font-size: 70%;
+  top: 10px;
+}
+.pied_proposer {
+  position: relative;
+  left: 18px;
+  margin: 0px;
+}
+.pied_devenir {
+  position: relative;
+  left: 15px;
+  margin: 0px;
 }
 
 .presentation {
@@ -77,6 +133,13 @@ footer.a {
   align-items: center;
 }
 
+.fonctionnement {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
 .etape {
   vertical-align: auto;
   display: flex;
@@ -84,9 +147,15 @@ footer.a {
   font-weight: bold;
   border-radius: 15px;
   background-color: #F2F2F2;
-  margin-left: 10px;
-  margin-bottom: 14px;
+  margin-bottom: 20 px;
   height: 55px;
+  box-shadow: 0px 10px 10px -12px grey;
+}
+.etape_icone {
+  color: grey;
+  position: relative;
+  left: 20px;
+  top: 17px;
 }
 
 .numero {
@@ -103,24 +172,18 @@ footer.a {
   padding-bottom: 11px;
 }
 
-.icone {
-  color: grey;
-  position: relative;
-  left: 20px;
-  top: 17px;
-}
-
 .action {
   position: relative;
   left: 40px;
 }
 
 .restaurants {
-  display: box;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #F2F2F2;
+  padding-top: 30px;
   padding-bottom: 60px;
+  padding-left: 15px;
 }
 
 figure.resto {
@@ -129,10 +192,10 @@ figure.resto {
   background-color: white;
   border-radius: 25px;
   margin-top: 20px;
-  margin-left: 0%;
+  margin-left: 0px;
   margin-right: 0%;
   margin-bottom: 0%;
-  height: 300px;
+  height: 260px;
   width: 95%;
   overflow: hidden;
   box-shadow: 0px 20px 50px -40px;
@@ -142,7 +205,7 @@ figure.resto img {
   position: absolute;
   object-fit: cover;
   width: 400px;
-  height: 220px;
+  height: 200px;
 }
 
 figcaption.resto_descrip {
