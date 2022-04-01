@@ -103,17 +103,6 @@ footer a {
   height: 42px;
 }
 
-.btn {
-  color: white;
-  border: none;
-  height: 45px;
-  width: 200px;
-  border-radius: 30px;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  margin-top: 30px;
-  box-shadow: 0px 10px 10px -5px grey;
-}
-
 .presentation_lieu--icone {
   position: relative;
   left: -20px;
@@ -147,7 +136,7 @@ footer a {
   font-weight: bold;
   border-radius: 15px;
   background-color: #F2F2F2;
-  margin-bottom: 20 px;
+  margin-bottom: 20px;
   height: 55px;
   box-shadow: 0px 10px 10px -12px grey;
 }
@@ -247,6 +236,125 @@ figcaption.resto_descrip {
   position: absolute;
   right: 18px;
   top: 40px;
+}
+
+.btn {
+  color: white;
+  border: none;
+  height: 45px;
+  width: 200px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  margin-top: 30px;
+  box-shadow: 0px 10px 10px -5px grey;
+}
+
+h4 {
+  font-size: 110%;
+  padding-top: 12px;
+  margin-left: 7px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.carte {
+  position: relative;
+  top: -30px;
+  padding: 10px;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+}
+.carte_titre {
+  display: flex;
+  justify-content: space-between;
+}
+.carte_titre h1 {
+  font-size: 180%;
+  font-family: "Shrikhand";
+}
+.carte_titre--coeur {
+  font-size: larger;
+  position: relative;
+  right: 25px;
+  top: 30px;
+}
+.carte_plat {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 20px;
+  height: 60px;
+  margin-right: 0px;
+  margin-bottom: 12px;
+  box-shadow: 0px 10px 10px -12px grey;
+}
+.carte_plat:hover > .carte_plat--check {
+  background-color: #99e2d0;
+}
+.carte_plat--texte {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.carte_plat--description {
+  margin-left: 7px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.carte_plat--check {
+  position: relative;
+  display: block;
+  width: 20%;
+  justify-items: right;
+  border-radius: 0 15px 15px 0;
+  background-color: rgba(153, 226, 208, 0);
+  margin-bottom: 20px;
+  height: 60px;
+  margin-right: 0px;
+  margin-bottom: 12px;
+  transition: background-color 400ms;
+  overflow: hidden;
+}
+
+[type=checkbox] {
+  position: absolute;
+  right: 0;
+  opacity: 0.01;
+}
+
+[type=checkbox] + label {
+  position: relative;
+  padding-left: 2.3em;
+  font-size: 1.05em;
+  line-height: 1.7;
+  cursor: pointer;
+}
+
+[type=checkbox] + label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.4em;
+  height: 1.4em;
+  border: 1px solid #aaa;
+  background: #FFF;
+  border-radius: 0.2em;
+  transition: all 0.275s;
+}
+
+.trait {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #99e2d0;
+  width: 35px;
+}
+
+* {
+  font-family: "Roboto";
 }
 
 body {

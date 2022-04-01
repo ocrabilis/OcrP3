@@ -3,6 +3,11 @@
 @import "./base/header";
 @import "./base/footer";
 @import "./pages/home";
+@import "./components/button";
+@import "./components/various";
+*{
+    font-family: 'Roboto';
+}
 body{
     width: 100%;
     max-width: 350px;

@@ -2,7 +2,7 @@
     display: box;
 	flex-wrap: wrap;
 	justify-content: center;
-    background-color: #F2F2F2;  
+    background-color: $CouleurFond;  
     height: 300px;
 }
 .presentation_lieu{
@@ -14,16 +14,7 @@
     height: 42px;
 
 }
-.btn{
-    color: white;
-    border: none;
-    height: 45px;
-    width: 200px;
-    border-radius: 30px;
-    background: linear-gradient(to bottom right,$CouleurSecondaire ,$CouleurPrimaire );
-    margin-top: 30px;
-    box-shadow:0px 10px 10px -5px grey;
-}
+
 .presentation_lieu--icone{
     position: relative;
     left:-20px;
@@ -53,9 +44,8 @@
     text-align: center;
 	font-weight: bold;
 	border-radius: 15px;
-	background-color: #F2F2F2;
-	margin-bottom: 20
-    px;
+	background-color: $CouleurFond;
+	margin-bottom: 20px;
 	height: 55px;
     box-shadow:0px 10px 10px -12px grey;
     &_icone{
@@ -86,7 +76,7 @@
 .restaurants{
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #F2F2F2;
+    background-color: $CouleurFond;
     padding-top: 30px;
     padding-bottom: 60px;
     padding-left: 15px;
